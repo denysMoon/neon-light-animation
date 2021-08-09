@@ -10,6 +10,10 @@ body{
     background-image: url('./assets/img/wall.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 h1{
     text-align: center;
@@ -57,4 +61,20 @@ h1{
       0 0 140px #656565;
   
   }
+}
+@media (max-width: 1230px){
+    h1{
+        padding: 20px;
+    }
+}
+@media (max-width: 800px){
+    h1{
+        padding: 20px;
+        font-size: 80px;
+        position: relative;
+        top: 150px;
+    }
+    body{
+        background-repeat: repeat;
+    }
 }
