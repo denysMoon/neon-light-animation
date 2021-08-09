@@ -10,14 +10,14 @@ body{
     background-image: url('./assets/img/wall.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-
 }
 h1{
     text-align: center;
     animation: pulsate 0.11s ease-in-out infinite alternate; 
 }
 .neon{
-    color: #656565;
+    color: rgb(218, 227, 231);
+    opacity: 0.9;
     text-shadow:
         0 0 27px rgb(243, 97, 211),
         0 0 27px rgb(243, 97, 211),
