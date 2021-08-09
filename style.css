@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-family: 'Monoton', cursive;
+    font-size: 100px;
+}
+body{
+    background-image: url('./assets/img/wall.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+h1{
+    text-align: center;
+    animation: pulsate 0.11s ease-in-out infinite alternate; 
+}
+.neon{
+    color: #656565;
+    text-shadow:
+        0 0 27px rgb(243, 97, 211),
+        0 0 27px rgb(243, 97, 211),
+        0 0 20px rgb(243, 97, 211),
+        0 0 62px #656565,
+        0 0 42px #656565,
+        0 0 102px #656565,
+        0 0 102px #656565,
+        0 0 151px #656565;
+}
+@keyframes pulsate {
+    
+    100% {
+  
+        text-shadow:
+        0 0 4px rgb(243, 97, 211),
+        0 0 11px rgb(243, 97, 211),
+        0 0 19px rgb(243, 97, 211),
+        0 0 20px #656565,
+        0 0 60px #656565,
+        0 0 90px #656565,
+        0 0 200px #656565,
+        0 0 10px #656565;
+    
+    }
+    
+    0% {
+  
+      text-shadow:
+      0 0 4px rgb(243, 97, 211),
+      0 0 10px rgb(243, 97, 211),
+      0 0 18px rgb(243, 97, 211),
+      0 0 38px #656565,
+      0 0 73px #656565,
+      0 0 80px #656565,
+      0 0 94px #656565,
+      0 0 140px #656565;
+  
+  }
+}
